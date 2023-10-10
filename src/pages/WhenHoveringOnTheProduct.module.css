@@ -1,0 +1,173 @@
+.search,
+.searchWrapper {
+  position: absolute;
+  top: 0.94rem;
+  left: 1.72rem;
+}
+.searchWrapper {
+  top: 2.5rem;
+  left: 27.63rem;
+  border-radius: 13.73px;
+  background-color: var(--color-white);
+  border: 0.7px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 39.27rem;
+  height: 3.56rem;
+  overflow: hidden;
+  font-size: 1.37rem;
+  color: var(--color-gray-300);
+}
+.searchResults {
+  position: absolute;
+  top: 9.06rem;
+  left: 2.5rem;
+  font-size: var(--font-size-21xl);
+}
+.brand {
+  position: relative;
+  font-weight: 500;
+}
+.angleRight1Icon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brandParent {
+  position: absolute;
+  top: 14.5rem;
+  left: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base) 0 0;
+  gap: var(--gap-140xl);
+  font-size: var(--font-size-xl);
+  color: var(--on-primarysecondarybgsurface-high-importance);
+}
+.priceRange {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.priceRangeParent,
+.ratingsParent {
+  position: absolute;
+  top: 24rem;
+  left: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base) 0 0;
+  gap: var(--gap-79xl);
+  font-size: var(--font-size-xl);
+  color: var(--on-primarysecondarybgsurface-high-importance);
+}
+.ratingsParent {
+  top: 33.63rem;
+  gap: var(--gap-121xl);
+}
+.whenHoveringOnTheProductChild,
+.whenHoveringOnTheProductItem {
+  position: absolute;
+  top: 22.73rem;
+  left: 2.48rem;
+  border-top: 0.5px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 15.66rem;
+  height: 0.03rem;
+}
+.whenHoveringOnTheProductItem {
+  top: 32.36rem;
+}
+.groupChild {
+  position: absolute;
+  top: 0.13rem;
+  left: 0;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.mango {
+  position: absolute;
+  top: 0;
+  left: 1.88rem;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.rectangleContainer,
+.rectangleGroup,
+.rectangleParent {
+  position: absolute;
+  top: 17.63rem;
+  left: 2.5rem;
+  width: 5.13rem;
+  height: 1.38rem;
+}
+.rectangleContainer,
+.rectangleGroup {
+  top: 27.13rem;
+  width: 6.88rem;
+}
+.rectangleContainer {
+  top: 29.63rem;
+  width: 8.38rem;
+}
+.groupIcon,
+.whenHoveringOnTheProductChild1,
+.whenHoveringOnTheProductInner {
+  position: absolute;
+  top: 36.88rem;
+  left: 2.5rem;
+  width: 9.13rem;
+  height: 1.25rem;
+}
+.groupIcon,
+.whenHoveringOnTheProductChild1 {
+  top: 39.13rem;
+}
+.whenHoveringOnTheProductChild1 {
+  top: 41.38rem;
+}
+.groupDiv,
+.whenHoveringOnTheProductChild2,
+.whenHoveringOnTheProductChild3 {
+  position: absolute;
+  top: 43.63rem;
+  left: 2.5rem;
+  width: 9.13rem;
+  height: 1.25rem;
+}
+.groupDiv,
+.whenHoveringOnTheProductChild3 {
+  top: 45.88rem;
+}
+.groupDiv {
+  top: 20rem;
+  width: 4.13rem;
+  height: 1.38rem;
+}
+.zeviGgLogodesognOption2BIcon {
+  position: absolute;
+  top: 2.5rem;
+  left: 86.63rem;
+  width: 5.38rem;
+  height: 2.79rem;
+  object-fit: cover;
+}
+.whenHoveringOnTheProduct {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 61.38rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

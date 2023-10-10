@@ -1,0 +1,58 @@
+.homeChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lavender);
+  width: 94.5rem;
+  height: 61.38rem;
+}
+.search {
+  position: absolute;
+  top: 1.38rem;
+  left: 2.5rem;
+  border: 0;
+  font-size: 1.37rem;
+  height: max-content;
+}
+.search:active{
+  border: 0;
+}
+.searchIcon,
+.searchParent {
+  position: absolute;
+  top: 1.31rem;
+  left: 51.94rem;
+  width: 2.63rem;
+  height: 2.63rem;
+  overflow: hidden;
+}
+.searchParent {
+  top: 10.13rem;
+  left: 18.69rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 57.19rem;
+  height: 5.19rem;
+}
+.zeviGgLogodesognOption2BIcon {
+  position: absolute;
+  top: 2.5rem;
+  left: 86.63rem;
+  width: 5.38rem;
+  height: 2.79rem;
+  object-fit: cover;
+}
+.home {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(/public/after-clicking-on-the-search-bar@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-inter);
+}

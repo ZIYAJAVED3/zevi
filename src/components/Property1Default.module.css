@@ -1,0 +1,93 @@
+.property1defaultChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 239px;
+  height: 325px;
+  object-fit: cover;
+}
+.roundNeckCotton {
+  position: absolute;
+  top: 349px;
+  left: 0;
+}
+.rs549,
+.rs599 {
+  position: absolute;
+  top: 0;
+}
+.rs599 {
+  right: 74px;
+  text-decoration: line-through;
+  font-weight: 300;
+}
+.rs549 {
+  right: 0;
+  font-weight: 600;
+  color: var(--color-royalblue-100);
+}
+.rs599Parent {
+  position: absolute;
+  top: 385px;
+  right: 94px;
+  width: 145px;
+  height: 24px;
+  color: var(--color-gray-300);
+}
+.div {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  font-weight: 300;
+}
+.groupChild,
+.parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 116px;
+  height: 20px;
+}
+.parent {
+  top: 421px;
+  width: 153px;
+  height: 21px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+  font-family: var(--font-poppins);
+}
+.heartIcon {
+  position: absolute;
+  top: 16px;
+  left: 191px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.property1default {
+  border-radius: var(--br-9xs);
+  width: 239px;
+  height: 450px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.property1variant2Item {
+  position: absolute;
+  top: 278px;
+  left: 0;
+  background-color: var(--color-royalblue-200);
+  width: 239px;
+  height: 47px;
+}
+.viewProduct {
+  position: absolute;
+  top: 290px;
+  left: 56px;
+  font-weight: 500;
+  color: var(--color-white);
+  text-shadow: 0 4px 32px rgba(0, 0, 0, 0.25);
+}
