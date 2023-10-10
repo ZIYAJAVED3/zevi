@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "./Home.module.css";
-import SearchSuggestions from "../components/AfterClickingOnTheSearchB"
+import SearchSuggestions from "../components/Suggestions"
 const Home: FunctionComponent = () => {
   return (
     <div className={styles.home}>

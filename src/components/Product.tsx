@@ -1,5 +1,5 @@
 import { FunctionComponent, memo, useMemo, type CSSProperties, useState } from "react";
-import styles from "./Property1Default.module.css";
+import styles from "./Product.module.css";
 
 type Property1DefaultType = {
   productImageUrl?: string;

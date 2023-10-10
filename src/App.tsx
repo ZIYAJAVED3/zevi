@@ -6,7 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import Home from "./pages/Home";
-import WhenHoveringOnTheProduct from "./pages/WhenHoveringOnTheProduct";
+import ProductPage from "./pages/ProductPage";
 
 function App() {
   const action = useNavigationType();
@@ -28,7 +28,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/when-hovering-on-the-product-view-product-button-is-visible":
+      case "/product":
         title = "";
         metaDescription = "";
         break;
@@ -52,8 +52,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route
-        path="/when-hovering-on-the-product-view-product-button-is-visible"
-        element={<WhenHoveringOnTheProduct />}
+        path="/product"
+        element={<ProductPage />}
       />
     </Routes>
   );

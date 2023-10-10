@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
-import Property1Default from "../components/Property1Default";
-import styles from "./WhenHoveringOnTheProduct.module.css";
+import Property1Default from "../components/Product";
+import styles from "./ProductPage.module.css";
 
 const WhenHoveringOnTheProduct: FunctionComponent = () => {
   return (

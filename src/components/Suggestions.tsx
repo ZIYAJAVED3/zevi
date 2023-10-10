@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import styles from "./AfterClickingOnTheSearchB.module.css";
+import styles from "./Suggestions.module.css";
 
 const AfterClickingOnTheSearchB: FunctionComponent = () => {
   return (
