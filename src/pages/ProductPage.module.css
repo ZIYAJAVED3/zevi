@@ -1,12 +1,6 @@
-.search,
 .searchWrapper {
-  position: absolute;
-  top: 0.94rem;
-  left: 1.72rem;
-}
-.searchWrapper {
-  top: 2.5rem;
-  left: 27.63rem;
+  display: flex;
+  justify-content: center;
   border-radius: 13.73px;
   background-color: var(--color-white);
   border: 0.7px solid var(--color-gray-100);
@@ -16,12 +10,18 @@
   overflow: hidden;
   font-size: 1.37rem;
   color: var(--color-gray-300);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
 }
 .searchResults {
-  position: absolute;
-  top: 9.06rem;
-  left: 2.5rem;
   font-size: var(--font-size-21xl);
+}
+
+.search {
+  border: 0;
+  font-size: 1.37rem;
+  height: max-content;
 }
 .brand {
   position: relative;
@@ -161,7 +161,6 @@
   object-fit: cover;
 }
 .whenHoveringOnTheProduct {
-  position: relative;
   background-color: var(--color-white);
   width: 100%;
   height: 61.38rem;
@@ -170,4 +169,16 @@
   font-size: var(--font-size-base);
   color: var(--color-black);
   font-family: var(--font-inter);
+}
+
+.results{
+  display: flex;
+}
+
+.productResults{
+  width: max-content;
+  display: flex;
+  height: 100rem;
+  overflow-y: scroll;
+  flex-wrap: wrap;
 }

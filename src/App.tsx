@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import ProductPage from "./pages/ProductPage";
+import { ProductData } from "./fakerData";
 
 function App() {
   const action = useNavigationType();
@@ -47,6 +48,8 @@ function App() {
       }
     }
   }, [pathname]);
+
+  console.log(ProductData);
 
   return (
     <Routes>
